@@ -67,7 +67,7 @@ def insert_row_snowflake(new_fruit):
 # Take the json version of the response and normalize it 
 # output it the scsreen as a table
 # dont run anything past here while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 #import snowflake.connector
 
