@@ -79,13 +79,13 @@ streamlit.stop()
 
 #import snowflake.connector
 
-streamlit.header("The fruit load list contains:")
+#streamlit.header("The fruit load list contains:")
 
 
 # Allow end-user to add a fruit to the list
 #streamlit.header("Fruityvice Fruit Advice!")
-add_my_fruit = streamlit.text_input('What fruit would you like information about?','Jackfruit')
-streamlit.write('Thanks for adding ', add_my_fruit)
+#add_my_fruit = streamlit.text_input('What fruit would you like information about?','Jackfruit')
+#streamlit.write('Thanks for adding ', add_my_fruit)
 
 #command = 
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+#my_cur.execute("insert into fruit_load_list values ('from streamlit')")
