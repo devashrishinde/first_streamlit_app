@@ -65,10 +65,8 @@ streamlit.stop()
 
 #import snowflake.connector
 
-my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-
 streamlit.header("The fruit load list contains:")
-streamlit.dataframe(my_data_rows)
+
 
 # Allow end-user to add a fruit to the list
 #streamlit.header("Fruityvice Fruit Advice!")
